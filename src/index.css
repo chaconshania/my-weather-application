@@ -9,3 +9,21 @@ body {
     border-radius: 30px;
     padding: 50px; 
 }
+
+.search-form-input {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #fff; 
+    width: 80%; 
+    font-size: 16px; 
+    padding: 15px 20px; 
+    border-radius: 10px;
+}
+
+.search-form-button {
+    background: #fff1eb; 
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 6px; 
+    color: #000; 
+    margin-left: 5px; 
+}
