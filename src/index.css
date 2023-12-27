@@ -15,15 +15,42 @@ body {
     border: 1px solid #fff; 
     width: 80%; 
     font-size: 16px; 
-    padding: 15px 20px; 
+    padding: 12px 20px; 
     border-radius: 10px;
 }
 
 .search-form-button {
-    background: #fff1eb; 
-    padding: 15px 20px; 
+    background: #F5B7A1; 
+    padding: 14px 20px; 
     border: none; 
     border-radius: 6px; 
-    color: #000; 
+    color: #fff; 
     margin-left: 5px; 
+    font-size: 15px; 
+}
+
+header {
+    padding: 0 0 5px 0; 
+}
+main {
+    text-align: center;
+    color: #001F3F; 
+}
+#city-name {
+    font-size: 50px; 
+    font-weight:500;  
+    margin: 25px 0; 
+}
+#description {
+    font-size: 16px; 
+    font-weight: 100px; 
+}
+.temperature {
+    font-size: 60px; 
+}
+footer {
+    border-top: 1px solid #fff;
+    padding: 20px 0 0 0; 
+    font-size: 15px; 
+    text-align: center; 
 }
