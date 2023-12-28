@@ -17,14 +17,14 @@ a {
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid #fff; 
     width: 80%; 
-    font-size: 16px; 
+    font-size: 15px; 
     padding: 12px 20px; 
     border-radius: 10px;
 }
 
 .search-form-button {
     background: #F5B7A1; 
-    padding: 14px 20px; 
+    padding: 13px 20px; 
     border: none; 
     border-radius: 6px; 
     color: #fff; 
