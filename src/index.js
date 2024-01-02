@@ -9,14 +9,16 @@ function refreshWeather(response) {
     let windSpeed = response.data.wind.speed; 
     let windElement = document.querySelector("#wind"); 
     let date = new Date(response.data.time * 1000); 
-    let timeElement = document.querySelector("#time")
-
+    let timeElement = document.querySelector("#time"); 
+    let iconElement = document.querySelector("#icon")
+    
     timeElement.innerHTML = formatDate(date); 
     cityElement.innerHTML = response.data.city; 
     temperatureElement.innerHTML = temperature;  
     descriptionElement.innerHTML = description; 
     humidityElement.innerHTML = humidity + "%"; 
     windElement.innerHTML = windSpeed + " km/h"; 
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" alt="icon" class="weather-app-icon" id="icon" />`; 
 }
 
 function formatDate(date) {
@@ -49,4 +51,4 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form"); 
 searchFormElement.addEventListener("submit", handleSearchSubmit); 
 
-searchCity("Lisbon"); 
+searchCity("New York"); 
