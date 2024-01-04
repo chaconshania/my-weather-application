@@ -85,9 +85,15 @@ header {
 .weather-forecast {
     display: flex; 
     justify-content: center;
+    flex-wrap: nowrap;
     margin: 20px 0 20px 0; 
     text-align: center;
     gap: 40px;
+}
+
+.weather-forecast-icon {
+    width: 100%; 
+    text-align: center; 
 }
 
 .weather-forecast-date {
