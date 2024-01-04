@@ -84,9 +84,10 @@ header {
 
 .weather-forecast {
     display: flex; 
+    justify-content: center;
     margin: 20px 0 20px 0; 
     text-align: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .weather-forecast-date {
