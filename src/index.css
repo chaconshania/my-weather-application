@@ -68,6 +68,7 @@ header {
     width: 70px; 
     height: 70px; 
     padding: 0; 
+    margin-top: 5px; 
 }
 
 .weather-app-temperature {
@@ -81,11 +82,24 @@ header {
     font-weight: 400; 
 }
 
+.weather-forecast {
+    margin: 20px 0 20px 0; 
+    text-align: center;
+}
+
+.weather-forecast-date {
+    font-size: 20px; 
+}
+
+.weather-forecast-temperature-min {
+    color: rgba(39, 33, 66, 0.7);
+}
+
 footer {
     border-top: 1px solid #fff;
     padding: 30px 0 0 0; 
     font-size: 13px; 
     text-align: center; 
     font-weight: 400; 
-    color: rgba(0, 0, 0, 0.6)
+    color: rgba(0, 0, 0, 0.6);
 }

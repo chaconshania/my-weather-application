@@ -38,7 +38,7 @@ function formatDate(date) {
 
 function searchCity(city){
     let apiKey = "0460boe94324434b68t71afdcfb30fa4"; 
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`; 
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`; 
     axios.get(apiUrl).then(refreshWeather); 
     console.log(apiUrl);
 }
@@ -51,4 +51,4 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form"); 
 searchFormElement.addEventListener("submit", handleSearchSubmit); 
 
-searchCity("New York"); 
+searchCity("Los Angeles"); 
