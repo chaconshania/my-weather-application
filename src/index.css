@@ -83,12 +83,18 @@ header {
 }
 
 .weather-forecast {
+    display: flex; 
     margin: 20px 0 20px 0; 
     text-align: center;
+    gap: 20px;
 }
 
 .weather-forecast-date {
     font-size: 20px; 
+}
+
+.weather-forecast-temperature-max {
+    margin-right: 8px;
 }
 
 .weather-forecast-temperature-min {
