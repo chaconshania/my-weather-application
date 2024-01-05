@@ -17,7 +17,7 @@ function refreshWeather(response) {
     temperatureElement.innerHTML = temperature;  
     descriptionElement.innerHTML = description; 
     humidityElement.innerHTML = humidity + "%"; 
-    windElement.innerHTML = windSpeed + " km/h"; 
+    windElement.innerHTML = windSpeed + "km/h"; 
     iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" alt="icon" class="weather-app-icon" id="icon" />`; 
     
     getForecast(response.data.city); 
@@ -94,4 +94,4 @@ function displayForecast(response) {
 let searchFormElement = document.querySelector("#search-form"); 
 searchFormElement.addEventListener("submit", handleSearchSubmit); 
 
-searchCity("Norwalk"); 
+searchCity("Los Angeles"); 

@@ -35,12 +35,18 @@
             <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-unit" id="unit">°</div>
           </div>
-          <p id="weather-app-description">
-            <span id="time">Tuesday 14:20</span>,
-            <span id="description"></span> <br />
-            Humidity: <strong id="humidity"></strong>, Wind:
-            <strong id="wind"></strong>
-          </p>
+          <div id="weather-app-description">
+            <div class="weather-app-container">
+              <div class="weather-app-container-time">
+                <span id="time"></span> <br />
+                Humidity: <strong id="humidity"></strong>
+              </div>
+              <div class="weather-app-container-description">
+                <span id="description"></span> <br />
+                <div class="wind">Wind: <strong id="wind"></strong></div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="weather-forecast" id="forecast"></div>
       </main>
